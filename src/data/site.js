@@ -14,7 +14,7 @@ export const site = {
   github: env.VITE_GITHUB_URL || 'https://github.com/sunnyguptaa12',
   linkedin: env.VITE_LINKEDIN_URL || 'https://www.linkedin.com/in/sunnykumar1210/',
   leetcode: env.VITE_LEETCODE_URL || 'https://leetcode.com/u/x8Hf4xsuAq',
-  resume: env.VITE_RESUME_URL || '/resume.pdf',
+  resume: env.VITE_RESUME_URL || `${import.meta.env.BASE_URL}resume.pdf`,
 }
 
 export const navLinks = [

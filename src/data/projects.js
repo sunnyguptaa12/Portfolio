@@ -10,7 +10,7 @@ export const projects = [
       'Candidate skill-based evaluation', 'AI-driven interview feedback', 'REST APIs and secure authentication',
     ],
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'AI Integration'],
-    image: '/images/projects/interviewpath.png',
+    image: `${import.meta.env.BASE_URL}images/projects/interviewpath.png`,
     github: 'https://github.com/sunnyguptaa12/AI-Powered-Interview-Preparation-Platform.git', live: 'https://interviewai-zeta-two.vercel.app', gradient: ['#5b8cff', '#7c3aed'], variant: 'dashboard',
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
       'Expense analytics and summaries', 'JWT-based secure authentication',
     ],
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST API'],
-    image: '/images/projects/expenseflow.png',
+    image: `${import.meta.env.BASE_URL}images/projects/expenseflow.png`,
     github: 'https://github.com/sunnyguptaa12/expenseflow.git', live: 'https://expenseflow-inky.vercel.app/login', gradient: ['#22d3ee', '#6366f1'], variant: 'form',
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
       'WhatsApp communication support', 'Responsive UI for better accessibility',
     ],
     tech: ['React.js', 'Supabase', 'Tailwind CSS'],
-    image: '/images/projects/digital-seva-kendra.png',
+    image: `${import.meta.env.BASE_URL}images/projects/digital-seva-kendra.png`,
     github: 'https://github.com/sunnyguptaa12/Digital-seva-kendra.git', live: 'https://sunnyguptaa12.github.io/Digital-seva-kendra/', gradient: ['#a78bfa', '#ec4899'], variant: 'list',
   },
 ]
